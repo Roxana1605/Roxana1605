@@ -1,0 +1,23 @@
+.titulo{color:#C389DE;font-family:Old English Text MT;font-size:42px;text-align: center}
+.parrafo{color:#493E3E;font-family:Arial Narrow;font-size:20px;text-align: center}
+.cuerpo{color:#493E3E;font-family:Arial Narrow;font-size:15px;text-align: center}
+
+
+#contenedor {margin:0 auto;width:1020px;overflow: hidden;}
+#buscar{background-color:#FADBD8;font-family:Arial Narrow;font-size:15px;text-align:left;float:left;height:50px;padding:10px;width:800px;}
+#cabecera{background-color:#FADBD8;float:left;height:50px;padding:10px;width:180px;}
+#menu{background-color:#FDEDEC;float:left;height:1000px;padding:15px;width:155px;}
+#contenido1{background-color:#F6CEEC;font-family:Arial Narrow;font-size:15px;float:center;height:925px;padding:90px;width:330px;}
+#contenido2{background-color:#F6CEEC;font-family:Arial Narrow;font-size:15px;float:right;height:1000px;padding:20px;width:180px;}
+#contenido3{background-color:#F6CEEC;font-family:Arial Narrow;font-size:15px;float:right;height:1000px;padding:20px;width:185px;}
+#contenido4{background-color:#F6CEEC;font-family:Arial Narrow;font-size:15px;float:right;height:1000px;padding:20px;width:185px;}
+.img img{width:145px;height:198px }
+.button button{text-align:center;}
+* {margin:0;padding:0;}
+table,td {border:1px;}
+table{border-spacing:10px;}
+table{width:100%;}
+td{padding: 10px}
+table{border-collapse:collapse;}
+h3{color:#C389DE;font-family:Old English Text MT;font-size:42px;text-align: center}
+

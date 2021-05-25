@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ingresar</title>
+	<link rel="stylesheet" type="text/css" href="estilosdepagina.css">
+	<script type="text/javascript">
+		function validar  (){
+			var form=document.form;
+			if(form.nombre.value==0){
+				alert("El nombre esta vacio");
+				form.nombre.value="";
+				form.nombre.focus();
+				return false;
+			}
+			if(form.usuario.value==0){
+				alert("El usuario esta vacio");
+				form.usuario.value="";
+				form.usuario.focus();
+				return false;
+			}
+			if(form.contraseña.value==0){
+				alert("La contraseña esta vacia");
+				form.contraseña.value="";
+				form.contraseña.focus();
+				return false;
+			}
+			form.submit();
+		}
+	</script>
+</head>
+<body>
+	<p class="titulo">romwe</p>
+	<form name="form" action="#" method="post" onsubmit="return validar"></form>
+	<p class="cuerpo">Nombre:<br><input type="text" name="nombre"></p><br>
+	<p class="cuerpo">Usuario:<br><input type="text" name="usuario"></p><br>
+	<p class="cuerpo"> Contraseña:<br><input type="password" name="contraseña"></p><br>
+	<button class="cuerpo" class="button"><a href="contenido.html">Enviar</a></button>
+</body>
+</html>
